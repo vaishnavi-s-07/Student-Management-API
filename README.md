@@ -43,6 +43,21 @@ Testing
 
 API endpoints were tested using FastAPI TestClient.
 
+## How to Run
+
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Run the application:
+   uvicorn main:app --reload
+
+3. Open API documentation:
+   /docs
+
+## Main Application
+
+The main.py file integrates all API endpoints, database operations, and authentication.
+
 Conclusion
 
 The Student Management API successfully demonstrates CRUD operations, database connectivity, authentication, and REST API testing.
